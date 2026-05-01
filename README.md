@@ -1,37 +1,32 @@
-# 🛠️ Mert Studio Code v2 (DORUK IDE)
+# Mert Studio Code v2
 
-[![Category](https://img.shields.io/badge/Category-Desktop_App_%2F_IDE-success.svg)](#)
+🇬🇧 **English:**
+Mert Studio Code v2 is an advanced, custom-built IDE and programming language environment named **DORUK**. Developed in C++ using the Qt framework for the graphical user interface, it provides a full-fledged editor experience tailored for the custom DORUK syntax. The engine implements custom lexing, parsing, and execution processes from scratch.
 
-*Custom IDE and Code Editor development project / Kişiselleştirilmiş IDE ve Kod editörü geliştirme projesi*
+🇹🇷 **Türkçe:**
+Mert Studio Code v2, **DORUK** adını verdiğimiz özel programlama dili için sıfırdan geliştirilmiş gelişmiş bir Entegre Geliştirme Ortamıdır (IDE). Grafiksel kullanıcı arayüzü C++ ve Qt framework kullanılarak inşa edilmiştir. Özel DORUK sözdizimi (syntax) için özelleştirilmiş bir editör deneyimi sunarken, arka planda lexer, parser ve çalışma zamanı (runtime) mekanizmalarını tamamen kendi motoruyla işletir.
 
----
+## Features / Özellikler
 
-## 🇬🇧 English
+- **Custom Lexer & Parser:** Full semantic understanding of the custom DORUK programming language.
+- **Modern IDE Interface:** Built with Qt, featuring a minimap, syntax highlighting, and custom dialogs.
+- **High Performance:** Core engine is written entirely in C++ for maximum execution speed.
+- **CMake Integration:** Easily build and scale the project using standard CMake tools.
 
-### Overview
-**Mert Studio Code v2** (also known as DORUK IDE) is an integrated development environment conceptualized and developed natively. It explores text editor mechanics, syntax highlighting, language tokenization, and custom UI components aimed at providing an extensible coding environment.
+## Technologies Used / Kullanılan Teknolojiler
 
-### Key Features
-- Advanced graphical user interface with customizable elements
-- Syntax highlighting and code parsing functionalities
-- Settings, Shortcuts, and Search/Replace utilities integrated natively
-- Execution environment mapping for custom-defined scripts/languages
+- **C++17 / C++20**
+- **Qt6 Framework**
+- **CMake**
 
-### Getting Started
-As a desktop application project, you must build the solution using the related compiler framework (e.g., Visual Studio for C#/C++ dependent repos). Open the main solution file and build the application for your target platform architecture.
+## Building the Project / Projeyi Derleme
 
----
-
-## 🇹🇷 Türkçe
-
-### Genel Bakış
-**Mert Studio Code v2** (namıdiğer DORUK IDE), sıfırdan tasarlanmış ve geliştirilmiş bağımsız bir Geliştirme Ortamıdır (IDE). Yüksek performanslı metin düzenleyici mekaniklerini, sözdizimi (syntax) renklendirmelerini ve özel arayüz bileşenlerini bir araya getirerek yazılım geliştirme sürecini test etmeyi hedefler.
-
-### Temel Özellikler
-- Özelleştirilebilir parçalara sahip gelişmiş grafik arayüz (GUI)
-- Kod analizi (parsing) ve sözdizimi vurgulama
-- Ayarlar, Kısayollar ve Bul/Değiştir gibi yerleşik metin editörü araçları
-- Özel dil tanımlamaları (DORUK Language) için çalıştırma ortamı entegrasyonu
-
-### Başlangıç
-Bu bir masaüstü uygulaması olduğu için, projeyi çalıştırmak adına sisteminizde geliştirme ortamına (Örn. Visual Studio) ihtiyacınız olacaktır. Ana proje (solution) dosyasını çalıştırıp kodu derleyerek uygulamayı ayağa kaldırabilirsiniz.
+1. Ensure you have CMake and a compatible C++ compiler (MSVC/GCC) installed. / CMake ve uygun bir C++ derleyicisinin kurulu olduğundan emin olun.
+2. Generate build files / Derleme dosyalarını oluşturun:
+   ```bash
+   cmake -B build
+   ```
+3. Build the project / Projeyi derleyin:
+   ```bash
+   cmake --build build --config Release
+   ```

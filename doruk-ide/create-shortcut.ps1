@@ -1,4 +1,4 @@
-$exePath = "D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk-ide\dist\Mert Studio Code-win32-x64\Mert Studio Code.exe"
+$exePath = Join-Path $PSScriptRoot "dist\Mert Studio Code-win32-x64\Mert Studio Code.exe"
 $desktop  = [Environment]::GetFolderPath('Desktop')
 $lnk      = Join-Path $desktop "Mert Studio Code.lnk"
 

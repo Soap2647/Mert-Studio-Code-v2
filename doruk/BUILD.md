@@ -14,7 +14,7 @@
 
 ```powershell
 # Visual Studio Developer PowerShell'i açın, ardından:
-cd "D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk"
+cd doruk
 
 mkdir build
 cd build
@@ -32,7 +32,7 @@ ctest -C Debug --output-on-failure
 ## MSYS2 / MinGW ile
 
 ```bash
-cd /d/Mevcut\ Projeler/Mert\ Studio\ Code\ Nihai\ Hali/doruk
+cd doruk
 mkdir build && cd build
 cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
 cmake --build .

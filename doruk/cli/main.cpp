@@ -31,7 +31,7 @@ static void surumGoster() {
     std::cout << "DORUK " << DORUK_SURUM << "\n"
               << "T\xc3\xbcrk\xc3\xa7" "e anahtar kelimeli betik dili\n"
               // Türkçe anahtar kelimeli betik dili
-              << "https://github.com/merty/doruk\n";
+              << "https://github.com/Soap2647/Mert-Studio-Code-v2\n";
 }
 
 static void yardimGoster(const char* prog) {
